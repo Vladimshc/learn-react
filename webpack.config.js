@@ -34,7 +34,8 @@ let config = {
     devServer: {
         contentBase: DIST_DIR,
         port: 4000,
-        open: true
+        open: true,
+        historyApiFallback: true
     }
 
 };
