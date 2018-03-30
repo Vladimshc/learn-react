@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Simple from "./Simple";
 
 export const Header = (props) => {
     return (
@@ -9,6 +10,7 @@ export const Header = (props) => {
                     <ul className="nav navbar-nav">
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/user/100">User</Link></li>
+                        <li><Link to="/simple">Simple</Link></li>
                     </ul>
                 </div>
             </div>

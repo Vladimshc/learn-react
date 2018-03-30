@@ -35,7 +35,7 @@ let config = {
         contentBase: DIST_DIR,
         port: 4000,
         open: true,
-        historyApiFallback: true
+        historyApiFallback: {index: './index.html'}
     }
 
 };

@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom";
 import {Header} from "./Header";
 import {Home} from "./Home";
 import {User} from "./User";
+import Simple from "./Simple";
 
 export class Root extends React.Component {
     render() {
@@ -20,6 +21,7 @@ export class Root extends React.Component {
                             <Route exact path='/' component={Home}/>
                             <Route path='/user/:id' component={User}/>
                             <Route path='/home' component={Home}/>
+                            <Route path='/simple' component={Simple}/>
                         </Switch>
                     </div>
                 </div>
